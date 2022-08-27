@@ -1,6 +1,8 @@
+import java.time.Year;
+
 public class Main {
     public static void main(String[] args) {
-        // УРОК № 1 - ПЕРЕМЕННЫЕ
+        // УРОК № 2 - ПЕРЕМЕННЫЕ
         /* var liftingCapacity = 50;
         var stuffWeight = 20;
         var capasityLeft = liftingCapacity - stuffWeight;
@@ -51,7 +53,7 @@ public class Main {
 
         float g = a + 1f;
         System.out.println(g);
-        // УРОК № 2 - УСЛОВНЫЕ ОПЕРАТОРЫ
+        // УРОК № 3 - УСЛОВНЫЕ ОПЕРАТОРЫ
         int age = 122;
         if (age == 18) {
             System.out.println("С окончанием школы!");
@@ -62,7 +64,7 @@ public class Main {
         } else {
             System.out.println("Пока сказать нечего!");
         }
-        // УРОК № 3 - ЦИКЛЫ
+        // УРОК № 4 - ЦИКЛЫ
         int salary = 65535;
         int total = 0;
         int i = 0;
@@ -78,7 +80,7 @@ public class Main {
         System.out.println(total);
 
 
-        System.out.println("Домашнее задание 1 урока - ПЕРЕМЕННЫЕ");
+        System.out.println("Домашнее задание 2 урока - ПЕРЕМЕННЫЕ");
         System.out.println("Задача № 1 ");
         byte a = 1;
         short b = 22;
@@ -146,7 +148,7 @@ public class Main {
         System.out.println(denisYear + " руб. Годовая разница в ЗП Дениса");
         System.out.println(kristinaYear + " руб. Годовая разница в ЗП Кристины");
 
-        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Домашнее задание 3 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
         System.out.println("Задача № 1 ");
         int clientOS = 1;
         //int iOS = 1;
@@ -157,7 +159,7 @@ public class Main {
             System.out.println("Установите приложение для Android");
         }
         System.out.println();
-        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Домашнее задание 3 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
         System.out.println("Задача № 2");
         int clientDeviceYear = 2017;
         int clientOS = 0;
@@ -171,7 +173,7 @@ public class Main {
             System.out.println("iOS Lite version please");
         }
         System.out.println();
-        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Домашнее задание 3 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
         System.out.println("Задача № 3");
         int year = 1985;
         boolean leapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
@@ -181,14 +183,14 @@ public class Main {
             System.out.println(year + " год не високосный");
         }
         System.out.println();
-        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Домашнее задание 3 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
         System.out.println("Задача № 4");
         int deliveryDistance = 95;
         int  = ???????????????????????????
 
 
         System.out.println();
-        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Домашнее задание 3 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
         System.out.println("Задача № 5");
         int monthNumber = 10;
         switch (monthNumber) {
@@ -214,6 +216,37 @@ public class Main {
                 break;
             default:
                 System.out.println("Такого месяца не существует!");
+        }
+        System.out.println();
+        System.out.println("Домашнее задание 4 урока - ЦИКЛЫ");
+        System.out.println("Задача № 1");
+        for (int j = 1; j <= 10; j++) {
+            System.out.print(j + " ");
+        }
+        System.out.println();
+        int i = 10;
+        while (i > 0) {
+            i = i - 1;
+            System.out.print(i + " ");
+        } // ОШИБКА!!!
+        System.out.println();
+        System.out.println("Домашнее задание 4 урока - ЦИКЛЫ");
+        System.out.println("Задача № 2");
+        int firstFriday = 5;
+        int lastFriday = 31;
+        for (int i = firstFriday; i <= lastFriday; i = i + 7) {
+            System.out.println("Пятница " + i + " необходимо сдать отчет");
+        } // подсматривал, не смог правильно объявить переменные
+
+        System.out.println();
+        System.out.println("Домашнее задание 4 урока - ЦИКЛЫ");
+        System.out.println("Задача № 3");
+        int currentYear = 2022;
+        int beforeCurrentYear = (currentYear - 200);
+        int afterCurrentYear = currentYear + 100;
+        for (int i = 0; i <= afterCurrentYear; i = i + 79) {
+            if (i >= beforeCurrentYear)
+                System.out.println(i);
         } */
 
     }
