@@ -146,7 +146,75 @@ public class Main {
         System.out.println(denisYear + " руб. Годовая разница в ЗП Дениса");
         System.out.println(kristinaYear + " руб. Годовая разница в ЗП Кристины");
 
-         */
+        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Задача № 1 ");
+        int clientOS = 1;
+        //int iOS = 1;
+        //int android = 0;
+        if (clientOS == 1) {
+            System.out.println("Установите приложение для iOS");
+        } else {
+            System.out.println("Установите приложение для Android");
+        }
+        System.out.println();
+        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Задача № 2");
+        int clientDeviceYear = 2017;
+        int clientOS = 0;
+        if (clientOS == 0 && clientDeviceYear >= 2015) {
+            System.out.println("Установите версию для iOS по ссылке http//...");
+        } else if (clientOS != 0 && clientDeviceYear >= 2015) {
+            System.out.println("Установите версию для Android по ссылке http//...");
+        } else if (clientOS != 0 && clientDeviceYear < 2015) {
+            System.out.println("Android Lite version please");
+        } else {
+            System.out.println("iOS Lite version please");
+        }
+        System.out.println();
+        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Задача № 3");
+        int year = 1985;
+        boolean leapYear = ((year % 4 == 0) && (year % 100 != 0) || (year % 400 == 0));
+        if (leapYear) {
+            System.out.println(year + " год високосный");
+        } else {
+            System.out.println(year + " год не високосный");
+        }
+        System.out.println();
+        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Задача № 4");
+        int deliveryDistance = 95;
+        int  = ???????????????????????????
+
+
+        System.out.println();
+        System.out.println("Домашнее задание 2 урока - УСЛОВНЫЕ ОПЕРАТОРЫ");
+        System.out.println("Задача № 5");
+        int monthNumber = 10;
+        switch (monthNumber) {
+            case 12:
+            case 1:
+            case 2:
+                System.out.println("Зима");
+                break;
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("Весна");
+                break;
+            case 6:
+            case 7:
+            case 8:
+                System.out.println("Лето");
+                break;
+            case 9:
+            case 10:
+            case 11:
+                System.out.println("Осень");
+                break;
+            default:
+                System.out.println("Такого месяца не существует!");
+        } */
 
     }
 }
