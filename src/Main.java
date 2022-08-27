@@ -54,18 +54,15 @@ public class Main {
         float g = a + 1f;
         System.out.println(g); */
         // УРОК № 2
-        int age = 6;
-        if (age > 18) {
-            System.out.println("Ты должен праздновать!");
-            if (age < 21) {
-                System.out.println("Выпей сливочного пива!");
-            } else {
-                System.out.println("Иди куда хочешь и пей что хочешь!");
-            }
-        } else if (age > 7) {
+        int age = 122;
+        if (age == 18) {
+            System.out.println("С окончанием школы!");
+        } else if (age == 21) {
+            System.out.println("Иди празднуй, можешь пить алкоголь!");
+        } else if (age == 7) {
             System.out.println("Иди в школу!");
         } else {
-            System.out.println("Иди в детский сад!");
+            System.out.println("Пока сказать нечего!");
         }
 
     }
