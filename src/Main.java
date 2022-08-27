@@ -1,5 +1,3 @@
-import java.sql.SQLOutput;
-
 public class Main {
     public static void main(String[] args) {
         // УРОК № 1 - ПЕРЕМЕННЫЕ
@@ -63,7 +61,7 @@ public class Main {
             System.out.println("Иди в школу!");
         } else {
             System.out.println("Пока сказать нечего!");
-        } */
+        }
         // УРОК № 3 - ЦИКЛЫ
         int salary = 65535;
         int total = 0;
@@ -75,8 +73,80 @@ public class Main {
                 System.out.println("Месяц " + i + " Итого " + total);
             }
         }
-        //System.out.println("Через " + i + " Месяцев, зарплата составит " + total + " рублей");
-        //System.out.println(i);
+        System.out.println("Через " + i + " Месяцев, зарплата составит " + total + " рублей");
+        System.out.println(i);
         System.out.println(total);
+
+
+        System.out.println("Домашнее задание 1 урока - ПЕРЕМЕННЫЕ");
+        System.out.println("Задача № 1 ");
+        byte a = 1;
+        short b = 22;
+        int c = 22000999;
+        long d = 393939393939L;
+        float e = 1.12f;
+        double f = 4999444.12933384;
+        char g = 33;
+        boolean skyIsClear = true;
+        System.out.println(a);
+        System.out.println(b);
+        System.out.println(c);
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        System.out.println(skyIsClear);
+        System.out.println();
+        System.out.println("Задача № 2 ");
+        double firstBoxerWeight = 78.2;
+        double secondBoxerWeight = 82.7;
+        var totalWeight = firstBoxerWeight + secondBoxerWeight;
+        var differentWeight = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Общий вес двух боксеров составляет " + totalWeight + " кг. Разница в весе двух боксеров составляет " + differentWeight + " кг.");
+        System.out.println();
+        System.out.println("Задача № 3 ");
+        int bananas = 80;
+        int milk = 105;
+        int iceCream = 100;
+        int egg = 70;
+        double breakfast = (bananas * 5) + (milk * 2) + (iceCream * 2) + (egg * 4);
+        double breakfastInKillos = breakfast / 1000;
+        System.out.println("Вес спортивного завтрака в граммах составляет " + breakfast + " грамм.");
+        System.out.println("Вес завтрака в килограммах составляет " + breakfastInKillos + " кг.");
+        System.out.println();
+        System.out.println("Задача № 4 ");
+        var needLossWeight = 7;
+        var minLossWeightInDays = 0.25;
+        var maxLossWeightInDays = 0.5;
+        var minDayNeed = needLossWeight / maxLossWeightInDays;
+        var maxDayNeed = needLossWeight / minLossWeightInDays;
+        var averageDays = (maxLossWeightInDays + minLossWeightInDays) / 2;
+        var needAverageDays = needLossWeight / averageDays;
+        System.out.println("Минимальное количество дней составялет - " + minDayNeed + " Дней.");
+        System.out.println("Максмальное количество дней составялет - " + maxDayNeed + " Дней.");
+        System.out.println("Среднее количество дней составялет - " + needAverageDays + " Дней.");
+        System.out.println();
+        System.out.println("Задача № 5 ");
+        var mashasSalary = 67760;
+        var denisSalary = 83690;
+        var kristinasSalary = 76230;
+        var newMashasSalary = mashasSalary + (mashasSalary * 0.1);
+        var newDenisSalary = denisSalary + (denisSalary * 0.1);
+        var newKristinasSalary = kristinasSalary + (kristinasSalary * 0.1);
+        var salaryDiffMasha = newMashasSalary - mashasSalary;
+        var salaryDiffDenis = newDenisSalary - denisSalary;
+        var salaryDiffKristina = newKristinasSalary - kristinasSalary;
+        var mashasYear = (newMashasSalary * 12) - (mashasSalary * 12);
+        var denisYear = (newDenisSalary * 12) - (denisSalary * 12);
+        var kristinaYear = (newKristinasSalary * 12) - (kristinasSalary * 12);
+        System.out.println("Маша теперь получает - " + newMashasSalary + " рублей. Разница в ЗП составляет " + salaryDiffMasha);
+        System.out.println("Денис теперь получает - " + newDenisSalary + " рублей. Разница в ЗП составляет " + salaryDiffDenis);
+        System.out.println("Кристина теперь получает - " + newKristinasSalary + " рублей. Разница в ЗП составляет " + salaryDiffKristina);
+        System.out.println(mashasYear + " руб. Годовая разница в ЗП Маши");
+        System.out.println(denisYear + " руб. Годовая разница в ЗП Дениса");
+        System.out.println(kristinaYear + " руб. Годовая разница в ЗП Кристины");
+
+         */
+
     }
 }
