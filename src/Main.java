@@ -2,7 +2,7 @@ import java.sql.SQLOutput;
 
 public class Main {
     public static void main(String[] args) {
-        // УРОК № 1
+        // УРОК № 1 - ПЕРЕМЕННЫЕ
         /* var liftingCapacity = 50;
         var stuffWeight = 20;
         var capasityLeft = liftingCapacity - stuffWeight;
@@ -52,8 +52,8 @@ public class Main {
         System.out.println(d);
 
         float g = a + 1f;
-        System.out.println(g); */
-        // УРОК № 2
+        System.out.println(g);
+        // УРОК № 2 - УСЛОВНЫЕ ОПЕРАТОРЫ
         int age = 122;
         if (age == 18) {
             System.out.println("С окончанием школы!");
@@ -63,7 +63,20 @@ public class Main {
             System.out.println("Иди в школу!");
         } else {
             System.out.println("Пока сказать нечего!");
+        } */
+        // УРОК № 3 - ЦИКЛЫ
+        int salary = 65535;
+        int total = 0;
+        int i = 0;
+        for (; total < 1_000_000; i++) {
+            total = total + total / 100;
+            total = total + salary;
+            if (i % 5 == 0) {
+                System.out.println("Месяц " + i + " Итого " + total);
+            }
         }
-
+        //System.out.println("Через " + i + " Месяцев, зарплата составит " + total + " рублей");
+        //System.out.println(i);
+        System.out.println(total);
     }
 }
