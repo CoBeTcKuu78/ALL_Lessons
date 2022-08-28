@@ -1,6 +1,7 @@
 import java.time.Year;
 
 public class Main {
+
     public static void main(String[] args) {
         // УРОК № 2 - ПЕРЕМЕННЫЕ
         /* var liftingCapacity = 50;
@@ -247,6 +248,87 @@ public class Main {
         for (int i = 0; i <= afterCurrentYear; i = i + 79) {
             if (i >= beforeCurrentYear)
                 System.out.println(i);
+        }
+        //УРОК № 5 - МАССИВЫ ч.1
+        int[] weights = {90,91,93,92,85,87,88,89,0,0,0,0};
+        weights[0] = 90;
+        int januaryWeight = weights[0];
+        System.out.println(januaryWeight);
+        System.out.println(weights[0]);
+        System.out.println(weights[4]);
+        int january = 0;
+        System.out.println(weights[january]);
+        for (int i = 0; i < weights.length; i++) {
+            System.out.println(weights[i]);
+        }
+        System.out.println();
+        System.out.println("Домашнее задание 5 урока - МАССИВЫ ч.1");
+        System.out.println("Задача № 1");
+        int[] arr = new int[3];
+        arr[0] = 1;
+        arr[1] = 2;
+        arr[2] = 3;
+        double[] arr1 = {1.57, 7.654, 9.986};
+        boolean[] arr2 = {true};
+        System.out.println();
+        System.out.println("Домашнее задание 5 урока - МАССИВЫ ч.1");
+        System.out.println("Задача № 2");
+        System.out.println(arr[0] + ", " + arr[1] + ", " + arr[2]);
+        System.out.println(arr1[0] + ", " + arr1[1] + ", " + arr1[2]);
+        System.out.println(arr2[0]);
+        System.out.println();
+        System.out.println("Домашнее задание 5 урока - МАССИВЫ ч.1");
+        System.out.println("Задача № 3");
+        System.out.println(arr[2] + ", " + arr[1] + ", " + arr[0]);
+        System.out.println(arr1[2] + ", " + arr1[1] + ", " + arr1[0]);
+        System.out.println(arr2[0]);
+        System.out.println();
+        System.out.println("Домашнее задание 5 урока - МАССИВЫ ч.1");
+        System.out.println("Задача № 4");
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i] % 2 == 1) {
+                arr[i]++;
+                System.out.println(arr);
+            }
+        } ???????????????????????????????????????
+        //УРОК № 5 - МАССИВЫ ч.2
+        int[] weights = {90, 91, 93, 92, 85, 87, 88, 89, 0, 0, 0, 0};
+        int[] weightsCopy = {902, 91, 93, 92, 85, 87, 88, 89, 0, 0, 0, 0};
+        weightsCopy[0] = 0;
+        int januaryWeight = weights[0];
+        System.out.println(januaryWeight);
+        System.out.println(weights[0]);
+        System.out.println(weights[4]);
+        int january = 0;
+        System.out.println(weights[january]);
+        for (int i = 0; i < weights.length; i++) {
+            System.out.println(weights[i]);
+        }
+        boolean arraysAreEqual = true;
+        arraysAreEqual = weights.length == weightsCopy.length;
+        if (arraysAreEqual) {
+            for (int i = 0; i < weights.length; i++) {
+                if (weights[i] != weightsCopy[i]) {
+                    arraysAreEqual = false;
+                }
+            }
+        }
+        if (arraysAreEqual) {
+            System.out.println("Массивы одинаковые");
+        } else {
+            System.out.println("Массивы разные");
+        }
+        int maxWeight = -1;
+        for (int current : weights) {
+            if (current > maxWeight) {
+                maxWeight = current;
+            }
+        }
+        System.out.println(maxWeight);
+        for (int i = 0; i < weights.length-1 && weights[i+1]!=0; i++) {
+            System.out.println(weights[i+1] - weights[i]);
+            // CTRL + ALT + T - контекстное меню для создания констукций (например условный оператор IF)
+            // CTRL + SHIFT + DEL - контекстное меню для удаления
         } */
 
     }
